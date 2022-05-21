@@ -1,4 +1,4 @@
-package week01jvm;
+package week01;
 
 import java.lang.reflect.Method;
 import java.util.Base64;

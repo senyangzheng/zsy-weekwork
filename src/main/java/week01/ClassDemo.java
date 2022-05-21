@@ -1,4 +1,4 @@
-package week01jvm;
+package week01;
 
 /**
  * @program: zsy-weekwork
