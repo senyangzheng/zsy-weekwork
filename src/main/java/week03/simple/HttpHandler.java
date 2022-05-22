@@ -26,6 +26,7 @@ public class HttpHandler extends ChannelInboundHandlerAdapter {
         ctx.flush();
     }
 
+
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
         try {
