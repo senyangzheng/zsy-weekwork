@@ -1,4 +1,4 @@
-package week03;
+package week03.simple;
 
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFutureListener;

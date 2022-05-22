@@ -1,4 +1,4 @@
-package week03;
+package week03.simple;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
