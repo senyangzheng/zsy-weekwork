@@ -17,7 +17,7 @@ import java.util.Map;
 @ConditionalOnClass(School.class)
 @EnableConfigurationProperties(SchoolProperties.class)
 @ConditionalOnProperty(prefix = "school", value = "enabled", havingValue = "true")
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:application.yml")
 public class SchoolAutoConfiguration {
 
     @Autowired
