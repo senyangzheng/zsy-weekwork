@@ -13,7 +13,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @date: 2022/7/17 02:41
  */
 @SpringBootConfiguration
-@ComponentScan(basePackages = "week11.demo")
 public class RedisApplication {
 
     public static void main(String[] args) {

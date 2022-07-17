@@ -1,0 +1,11 @@
+spring:
+  redis:
+    cluster:
+      nodes: 127.0.0.1:6379
+    pool:
+      max-idle: 20
+      min-idle: 0
+      max-active: 20
+      max-wait: -1
+    timeout: 1800000
+
